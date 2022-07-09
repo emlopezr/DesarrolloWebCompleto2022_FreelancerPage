@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Freelancer page</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="title">Emmanuel López <span>Ingeniero</span></h1>
+    </header>
+
+    <div class="navBg">
+        <nav class="navPrincipal container" id="navegacion">
+            <a href="#">Inicio</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </div>
+
+    <section class="hero">
+        <div class="heroContent">
+            <h2 class="title">Ingeniero de Sistemas <span>Programador</span></h2>
+            <div class="heroLocation">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" width="50" height="50" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFC107" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <line x1="18" y1="6" x2="18" y2="6.01" />
+                    <path d="M18 13l-3.5 -5a4 4 0 1 1 7 0l-3.5 5" />
+                    <polyline points="10.5 4.75 9 4 3 7 3 20 9 17 15 20 21 17 21 15" />
+                    <line x1="9" y1="4" x2="9" y2="17" />
+                    <line x1="15" y1="15" x2="15" y2="20" />
+                  </svg>
+                <p>Medellín, Colombia</p>
+            </div>
+            <a href="#contacto" class="button">Contáctame</a>
+        </div>
+    </section>
+
+    <main class="container sombra" id="servicios">
+        <h2>Servicios</h2>
+        <div class="mainServices">
+            <section class="mainServicesItem">
+                <h3>Desarrollo web</h3>
+                <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-browser" width="50" height="50" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <rect x="4" y="4" width="16" height="16" rx="1" />
+                        <line x1="4" y1="8" x2="20" y2="8" />
+                        <line x1="8" y1="4" x2="8" y2="8" />
+                      </svg>
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero cumque cum aliquam dolore odio? Placeat sed animi nam esse dolore sit veniam nobis nostrum? Voluptas dignissimos nostrum repellat sequi quidem?</p>
+            </section>
+
+            <section class="mainServicesItem">
+                <h3>Data science</h3>
+                <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chart-dots" width="50" height="50" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 3v18h18" />
+                        <circle cx="9" cy="9" r="2" />
+                        <circle cx="19" cy="7" r="2" />
+                        <circle cx="14" cy="15" r="2" />
+                        <line x1="10.16" y1="10.62" x2="12.5" y2="13.5" />
+                        <path d="M15.088 13.328l2.837 -4.586" />
+                    </svg>
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero cumque cum aliquam dolore odio? Placeat sed animi nam esse dolore sit veniam nobis nostrum? Voluptas dignissimos nostrum repellat sequi quidem?</p>
+            </section>
+
+            <section class="mainServicesItem">
+                <h3>Marketing</h3>
+                <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-trending-up" width="50" height="50" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <polyline points="3 17 9 11 13 15 21 7" />
+                        <polyline points="14 7 21 7 21 14" />
+                      </svg>
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero cumque cum aliquam dolore odio? Placeat sed animi nam esse dolore sit veniam nobis nostrum? Voluptas dignissimos nostrum repellat sequi quidem?</p>
+            </section>
+        </div>
+
+        <section class="formulario" id="contacto">
+            <h2>Contacto</h2>
+            <form>
+                <fieldset>
+                    <legend>Contáctame llenando todos los campos</legend>
+
+                    <div class="camposContainer">
+                        <div class="campo">
+                            <label for="nombre">Nombre</label>
+                            <input class="camposInput" type="text" placeholder="Tu nombre">
+                        </div>
+                        <div class="campo">
+                            <label for="telefono">Teléfono</label>
+                            <input class="camposInput" type="tel" placeholder="Tu teléfono">
+                        </div>
+                        <div class="campo">
+                            <label for="email">Teléfono</label>
+                            <input class="camposInput" type="email" placeholder="Tu correo">
+                        </div>
+                        <div class="campo">
+                            <label for="textarea">Mensaje</label>
+                            <textarea class="camposInput"></textarea>
+                        </div>
+
+                    </div>
+                    <div class="campo enviar">
+                        <input class="button" type="submit" value="Enviar">
+                    </div>
+                </fieldset>
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Todos los derechos reservados - Emmanuel López</p>
+    </footer>
+</body>
+
+</html>
