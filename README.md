@@ -1,2 +1,3 @@
-# DesarolloWeb2022_Portafolio
-Curso Desarrollo Web Completo con HTML5, CSS3, JS AJAX PHP y MySQL en Udemy. Profesor Juan De La Torre.
+# Proyecto 1: Página Freelancer
+- **Curso:** [Desarrollo Web Completo con HTML5, CSS3, JS AJAX PHP y MySQL en Udemy](https://www.udemy.com/course/desarrollo-web-completo-con-html5-css3-js-php-y-mysql/)
+- **Profesor:** Juan Pablo De La Torre Valdez
